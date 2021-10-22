@@ -151,7 +151,7 @@ function HomePage() {
                 </div>  
                 <div className='container mx-auto px-12 my-8'>
                         <PosterSlider  
-                        title="Online Streming Events" 
+                        title="Online Streaming Events" 
                         subtitle=""
                         posters={onlineStreamEvents}
                         isDark={false}

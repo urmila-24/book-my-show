@@ -7,7 +7,7 @@ const Poster =(props) =>{
         <Link to = {`/movie/${props.id}`}>
         <div className='flex flex-col items-center gap-2 px-1 md:px-3'>
             <div className='h-40 md:h-80'>
-                <img src={`https//image.tmdb.org/t/p/original${props.poster_path}`} 
+                <img src={`https://image.tmdb.org/t/p/original${props.poster_path}`} 
                 alt='Poster' 
                 className='w-full h-full rounded-md'/>
             </div>

@@ -24,7 +24,7 @@ import { NextArrow, PrevArrow } from "./Arrows.Component";
                     {image.map((image) => (
                         <div className="w-full h-56 md:h-80 py-3">
                             <img
-                                src={`https//image.tmdb.org/t/p/original${image.backdrop_path}`}
+                                src={`https://image.tmdb.org/t/p/original${image.backdrop_path}`}
                                 alt="Hero Banner"
                                 className="w-full h-full rounded-md object-center "
                             />
@@ -37,7 +37,7 @@ import { NextArrow, PrevArrow } from "./Arrows.Component";
                     {image.map((image) => (
                         <div className="w-full h-96 px-2 py-3">
                             <img
-                                src={`https//image.tmdb.org/t/p/original${image.backdrop_path}`}
+                                src={`https://image.tmdb.org/t/p/original${image.backdrop_path}`}
                                 alt="Hero Banner"
                                 className="w-full h-full rounded-md object-center"
                             />

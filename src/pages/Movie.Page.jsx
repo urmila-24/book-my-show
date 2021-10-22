@@ -11,7 +11,7 @@ import MovieHero from "../Components/MovieHero/MovieHero.Component";
 import Cast from "../Components/Cast/Cast.Component";
 import PosterSlider from "../Components/PosterSlider/PosterSlider.Component";
 //Context
-import { MovieContext } from "../Context/Movie.context"; 
+ import { MovieContext } from "../Context/Movie.context"; 
 
 const MoviePage = () => {
     const { movie } = useContext(MovieContext);
