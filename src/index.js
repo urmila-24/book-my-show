@@ -5,6 +5,8 @@ import App from "./App";
 import {BrowserRouter} from 'react-router-dom';
 import MovieProvider from "./Context/Movie.context" ;
 
+
+
 ReactDOM.render(
     <React.StrictMode>
         <BrowserRouter>

@@ -3,6 +3,7 @@ import React ,{useEffect,useState} from 'react';
 import EntertainmentCardSlider from '../Components/Entertainment/EntertainmentCard.Component';
 import HeroCarousel from '../Components/HeroCarousel/HeroCarousel.Component';
 import PosterSlider from '../Components/PosterSlider/PosterSlider.Component';
+// eslint-disable-next-line
 import Poster from '../Components/Poster/Poster.Component';
 
 function HomePage() {

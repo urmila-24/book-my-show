@@ -8,16 +8,20 @@ import MovieNavbar from "../Components/Navbar/MovieNavbar.Component";
 import {MovieContext} from '../Context/Movie.context';
 
 const MovieLayout =(props) => {
+    // eslint-disable-next-line
     const {id} = useParams();
+    // eslint-disable-next-line
     const {movie ,setMovie} = useContext(MovieContext);
 
     useEffect(() => {
         const reuquestMovie = async () =>{
-            const getMovieData = await axios.get('/movie/${id}');
+            const getMovieData = await axios.get(`/movie/${id}`);
+            
             setMovie(getMovieData.data);
             
         }
          reuquestMovie();
+         // eslint-disable-next-line react-hooks/exhaustive-deps
      }, []);
 
     return(

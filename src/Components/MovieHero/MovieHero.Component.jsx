@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import React, { useState, useContext } from "react";
 import MovieInfo from "./MovieInfo.Component";
 
@@ -16,7 +17,6 @@ const MovieHero = () => {
     //     poster_path:
     //         "https://in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/fast-and-furious-9-et00056556-14-07-2021-07-41-33.jpg",
     // });
-
     const { movie } = useContext(MovieContext);
 
     const genres = movie.genres?.map(({ name }) => name).join(", ");
